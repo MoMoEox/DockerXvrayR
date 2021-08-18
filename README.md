@@ -5,6 +5,8 @@ A Xray backend framework that can easily support many panels.
 
 Find the source code here: [XrayR-project/XrayR](https://github.com/XrayR-project/XrayR)
 
+自用备份
+
 安装 Docker
 # Centos
 yum install -y yum-utils
