@@ -5,10 +5,11 @@ A Xray backend framework that can easily support many panels.
 
 Find the source code here: [XrayR-project/XrayR](https://github.com/XrayR-project/XrayR)
 
-自用备份
+# 自用备份
 
 安装 Docker
 # Centos
+```
 yum install -y yum-utils
 yum-config-manager \
     --add-repo \
@@ -16,7 +17,9 @@ yum-config-manager \
 yum install docker-ce docker-ce-cli containerd.io -y
 systemctl start docker
 systemctl enable docker
+```
 # Debian / Ubuntu
+```
 sudo apt-get update
 sudo apt-get install \
     apt-transport-https \
@@ -32,9 +35,9 @@ sudo add-apt-repository \
 sudo apt-get install docker-ce docker-ce-cli containerd.io -y
 systemctl start docker
 systemctl enable docker
-
-
 ```
+
+
 # Docker compose 安装
 0. 安装docker-compose: 
 ```
@@ -49,9 +52,6 @@ chmod +x /usr/local/bin/docker-compose
 4. 启动docker：`docker-compose up -d`
 ```
 
-
-```
-```
 ```
 ## Docker compose升级
 在docker-compose.yml目录下执行：
